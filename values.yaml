@@ -1418,7 +1418,7 @@ jenkins:
     ##   set, choosing the default provisioner.  (gp2 on AWS, standard on
     ##   GKE, AWS & OpenStack)
     ##
-    # StorageClass: "-"
+    StorageClass: "sjdc-gluster-heketi"
 
     AccessMode: ReadWriteOnce
     Size: 30Gi
